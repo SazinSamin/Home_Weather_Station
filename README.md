@@ -1,5 +1,6 @@
 # Home Weather Station  
-<img src=https://github.com/SazinSamin/Home_Weather_Station/blob/main/image_1.jpg>
+<img src=https://github.com/SazinSamin/Home_Weather_Station/blob/main/image_1.jpg width=20%>  
+<img src=https://github.com/SazinSamin/Home_Weather_Station/blob/main/wepage_1.png>
 
 gas sensor: https://create.arduino.cc/projecthub/Aritro/smoke-detection-using-mq-2-gas-sensor-79c54a  
   
