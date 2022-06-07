@@ -1,0 +1,84 @@
+body{
+  background-color: #00203FFF;
+  color: white;
+  text-align: center;
+  font-size: 1.1vw;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ADEFD1FF;
+}
+
+h1{
+  font-size: 2vw;
+  color: #ADEFD1FF;
+}
+
+#temperature{
+  color: yellow;  
+  font-weight: bold;
+  font-size: 7rem;
+  font-style: italic;
+  margin: 0%;
+}
+
+
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  margin: 0%;
+}
+
+
+.child {
+  border-radius: 10%;
+  border: 0ch;
+  margin: 0%;
+  display: inline-block;
+  border: 5px dotted rgb(2, 1, 216);
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+
+
+
+.parent1 {
+  text-align: center;
+}
+
+
+.child1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+#clock{
+  color: greenyellow;
+  font-size: 2.5vw;
+}
+
+.child2{
+  margin: 0%;
+  border: 0%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#about{
+  border: 0%;
+  margin: 0%;
+  font-size: 1vw;
+}
+
+
+#ff{
+  color: rgb(117, 184, 9);
+}
+
+
+
+
+
+
+

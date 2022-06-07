@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="module" src="./weather.js"></script>
+        <link rel="stylesheet" href="weather.css">
+        <title>Document</title>
+</head>
+<body>
+
+        
+        <h1 id="demo">Home Weather Station</h1>  
+        <h3 id="clock"></h3>   
+
+
+        <div class="parent1">
+                <p class="child1">Temp: </p>
+                <h3 class="child1" id="temperature">0</h3>
+                <p class="child1">C</p>
+        </div>
+        
+
+        <div class="parent">
+                <h3 class="child" id="humidity">0</h3>
+                <h3 class="child" id="heat index">0</h3>
+                <h3 class="child" id="smoke index">0</h3>
+        </div>
+        <div class="parent">
+                <h3 class="child" id="pressure">0</h3>
+                <h3 class="child" id="altitude">0</h3>
+                <h3 class="child" id="s_pressure">0</h3>
+        </div>
+
+        
+        <div class="parent">   
+                <iframe class="child" width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1737377/charts/1?bgcolor=%230097D0&color=%2300203FFF&dynamic=true&results=60&type=spline"></iframe>
+                <iframe class="child" width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1737377/charts/2?bgcolor=%230097D0&color=%23d62020&dynamic=true&results=60&type=spline"></iframe>
+
+                
+        </div>
+
+
+        <div class="parent">   
+                <p class="child2">last update: </p>
+                <p class="child2" id="last update"></p>
+                <p id="about">©2022 Computer Network Lab, United International University</p>
+        </div>
+
+
+
+
+        
+
+
+        <!--<script type="module" src="dataType.js"></script>-->
+        
+</body>
+
+</html>
