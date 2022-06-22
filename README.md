@@ -9,4 +9,9 @@ bmp sensor: https://lastminuteengineers.com/bmp180-arduino-tutorial/
 DHT11: https://randomnerdtutorials.com/complete-guide-for-dht11dht22-humidity-and-temperature-sensor-with-arduino/  
   
 esp8266: https://www.youtube.com/watch?v=nMWwqcn7ofw  
-         https://robu.in/how-to-interface-esp8266-with-arduino/
+         https://robu.in/how-to-interface-esp8266-with-arduino/  
+To complie arduino file, give write permission in linux:  
+- ls /dev/ttyACM0  
+- sudo chmod a+rw /dev/ttyACM0  
+           
+     
