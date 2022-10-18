@@ -46,6 +46,9 @@ h1{
   text-align: center;
 }
 
+#tempChart{
+  display: inline-block;
+}
 
 .child1 {
   display: inline-block;

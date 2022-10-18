@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="module" src="./weather.js"></script>
         <link rel="stylesheet" href="weather.css">
+        <script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
         <title>Document</title>
 </head>
 <body>
@@ -16,9 +17,7 @@
 
 
         <div class="parent1">
-                <p class="child1">Temp: </p>
-                <h3 class="child1" id="temperature">0</h3>
-                <p class="child1">C</p>
+                <div id="tempChart"></div>
         </div>
         
 
@@ -27,6 +26,7 @@
                 <h3 class="child" id="heat index">0</h3>
                 <h3 class="child" id="smoke index">0</h3>
         </div>
+        
         <div class="parent">
                 <h3 class="child" id="pressure">0</h3>
                 <h3 class="child" id="altitude">0</h3>
@@ -50,11 +50,12 @@
 
 
 
-
+        
         
 
 
         <!--<script type="module" src="dataType.js"></script>-->
+        <script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
         
 </body>
 
